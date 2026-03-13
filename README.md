@@ -24,21 +24,8 @@ chmod +x install.sh && ./install.sh
 ### Windows
 
 Download the latest `fortress-windows-amd64.exe` from the
-[Releases page](https://github.com/fortress-lang/fortress/releases),
+[Releases page](https://github.com/CzaxStudio/fortress/releases),
 rename it to `fortress.exe`, and add its folder to your `PATH`.
-
-### Build from source (maintainers / contributors)
-
-```bash
-# Requires Go 1.21+ — only needed if you're building the interpreter itself
-git clone https://github.com/fortress-lang/fortress
-cd fortress
-go build -o fortress .
-
-# Cross-compile all platform binaries for a release
-chmod +x build-release.sh && ./build-release.sh
-# → produces dist/fortress-linux-amd64, fortress-darwin-arm64, fortress-windows-amd64.exe, …
-```
 
 ---
 
