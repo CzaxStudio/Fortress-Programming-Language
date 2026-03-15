@@ -36,7 +36,6 @@ Fortress is a scripting language designed from the ground up for security profes
 - [Building Executables](#building-executables)
 - [Language Reference](#language-reference)
 - [Built-in Functions](#built-in-functions)
-- [Official Libraries](#official-libraries)
 - [Package Manager](#package-manager)
 - [Examples](#examples)
 - [Contributing](#contributing)
